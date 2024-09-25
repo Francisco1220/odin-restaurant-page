@@ -26,14 +26,12 @@ homeBtn.addEventListener("click", () => {
 
 menuBtn.addEventListener("click", () => {
     // Remove childContainer
-    console.log(childContainer);
     childContainer.remove();
     menuPage();
 })
 
 aboutBtn.addEventListener("click", () => {
     // Remove contents of div#content
-    console.log(childContainer);
     childContainer.remove();
     aboutPage();
 })

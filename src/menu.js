@@ -15,10 +15,9 @@ export function menuPage () {
     div5.setAttribute("class", "menu-item");
     const div6 = document.createElement("div");
     div6.setAttribute("class", "menu-item");
-    // clear div#content
-    console.log(divContent);
+        // clear div#content
     divContent.innerHTML = "";
-    // Append new divs
+        // Append new divs
     divContent.appendChild(div1);
     divContent.appendChild(div2);
     divContent.appendChild(div3);
