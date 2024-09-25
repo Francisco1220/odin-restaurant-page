@@ -7,7 +7,8 @@ homePage();
 
 // menuBtn.addEventListener("click", menuPage);
 
-// Import css styles
 
+// Import css styles
+import "./style.css";
 
 
