@@ -15,6 +15,29 @@ if (clickCounter === 0) {
     clickCounter++;
 }
 
+let mouseoverOpacity = 0.7;
+
+homeBtn.addEventListener("mouseover", () => {
+    homeBtn.style.opacity = `${mouseoverOpacity}`;
+    homeBtn.addEventListener("mouseout", () => {
+        homeBtn.style.opacity = "1";
+    })
+})
+
+menuBtn.addEventListener("mouseover", () => {
+    menuBtn.style.opacity = `${mouseoverOpacity}`;
+    menuBtn.addEventListener("mouseout", () => {
+        menuBtn.style.opacity = "1";
+    })
+})
+
+aboutBtn.addEventListener("mouseover", () => {
+    aboutBtn.style.opacity = `${mouseoverOpacity}`;
+    aboutBtn.addEventListener("mouseout", () => {
+        aboutBtn.style.opacity = "1";
+    })
+})
+
 homeBtn.addEventListener("click", () => {
     childContainer.remove();
     image.remove();
