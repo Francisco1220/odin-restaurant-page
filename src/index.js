@@ -1,5 +1,5 @@
 import {homePage} from "./home.js";
-
+import {menuPage} from "./menu.js";
 
 // Select buttons from the DOM
 const homeBtn = document.querySelector("button:first-child");
